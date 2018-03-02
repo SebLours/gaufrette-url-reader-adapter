@@ -1,0 +1,22 @@
+{
+    "name":         "seblours/gaufrette-url-reader-adapter",
+    "type":         "library",
+    "keywords":     ["gaufrette", "filesystem"],
+    "license":      "MIT",
+    "authors": [
+        {
+            "name": "Sébastien Lourseau",
+            "homepage": "https://github.com/SebLours"
+        }
+    ],
+    "require": {
+        "knplabs/gaufrette": "^0.5.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": { "Gaufrette\\UrlReader\\": "src/" }
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.3"
+    }
+}

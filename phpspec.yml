@@ -1,0 +1,6 @@
+formatter.name: pretty
+
+suites:
+    default:
+        namespace: Gaufrette\UrlReader
+        psr4_prefix: Gaufrette\UrlReader
